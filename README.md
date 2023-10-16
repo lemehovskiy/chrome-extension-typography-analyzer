@@ -1,72 +1,24 @@
-# Chrome Extension Starter
+# Typography Analyzer Chrome Extension
 
-This is a Chrome extension starter project built using the Create React App with TypeScript template. It provides a foundation for building Chrome extensions using modern web technologies and React.
+Typography Analyzer is a Chrome extension that allows you to analyze the typography of any webpage. It provides insights into the computed properties of font sizes, font families, font weights, and colors used on the page. Additionally, it rates the usage of typography styles within a group and allows you to highlight specific groups for further examination.
 
 ## Features
 
-- **Basic React Hooks:**
-  - `useDomEvaluator`: A custom hook for injecting content scripts into web pages, allowing you to interact with and modify web page content.
-  - `useStorageState`: A custom hook for managing and persisting extension data in the Chrome storage.
+- View computed properties of font sizes, font families, font weights, and colors on any webpage.
+- Analyze and rate the usage of typography styles within a group.
+- Highlight specific typography groups for a closer look.
+- Built with React, TypeScript, and Material UI for a user-friendly experience.
 
-## Getting Started
+## Technologies Used
 
-### Installation
+- React
+- TypeScript
+- Material UI
 
-1. Clone the repository:
+## Contributing
 
-   ```bash
-   git clone https://github.com/lemehovskiy/chrome-extension-starter.git
-   ```
-
-2. Navigate to the project directory:
-
-    ```bash
-    cd chrome-extension-starter
-    ```
-
-2. Install dependencies:
-
-    ```bash
-    npm install
-    ```
-    
-### Usage
-
-1. Build extension:
-
-    * For a one-time build:
-    ```bash
-    npm run build
-    ```
-    * For development with auto-reloading on changes:
-    ```bash
-    npm run watch
-    ```
-
-2. Open Google Chrome and go to `chrome://extensions/`.
-
-3. Enable "Developer mode" in the top-right corner of the extensions page.
-
-4. Click on the "Load unpacked" button.
-
-5. Select the `build` directory inside your project directory. This will load your extension into Chrome.
-
-6. You should now see your extension in the list of installed extensions. You can interact with your extension from there.
-
-## Reloading the Extension
-
-1. If you make changes to your extension and want to see those changes reflected in Chrome, follow these steps to reload the extension:
-
-2. Go to chrome://extensions/.
-
-3. Find your extension in the list of installed extensions.
-
-4. Click the "Reload" button located under your extension. This will reload the extension with your latest changes.
+If you'd like to contribute to Typography Analyzer, feel free to open an issue or submit a pull request. We welcome your contributions!
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/lemehovskiy/chrome-extension-starter/blob/main/LICENSE) file for details.
-
-## Support
-
-If you have any questions or issues, please feel free to open an issue on the GitHub repository.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
