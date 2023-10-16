@@ -1,0 +1,29 @@
+{
+  "name": "Typography Analyzer",
+  "description": "",
+  "version": "1",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Open the popup"
+  },
+  "icons": {
+    "16": "logo16.png",
+    "32": "logo32.png",
+    "48": "logo48.png",
+    "128": "logo128.png"
+  },
+  "permissions": ["activeTab", "storage", "background"],
+  "content_scripts": [
+    {
+      "matches": "<all_urls>",
+      "js": ["./static/js/content.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "background": {
+    "service_worker": "./static/js/service-worker.js",
+    "run_at": "document_start",
+    "type": "module"
+  }
+}
