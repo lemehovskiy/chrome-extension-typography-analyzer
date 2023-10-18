@@ -25,7 +25,7 @@ You can install Typography Analyzer directly from the Chrome Web Store. [![Chrom
 
 ## Contributing
 
-We welcome contributions from the community to make Typography Analyzer even more robust and feature-rich. If you'd like to get involved, please consider opening an issue or submitting a pull request. We value your input and are excited to work together to enhance this tool.
+If you'd like to get involved, please consider opening an issue or submitting a pull request. Your input is highly valued, and I'm enthusiastic about collaborating to enhance this tool.
 
 ## License
 
