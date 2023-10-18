@@ -16,7 +16,7 @@
   "permissions": ["activeTab", "storage", "background"],
   "content_scripts": [
     {
-      "matches": "<all_urls>",
+      "matches": ["http://*/*", "https://*/*"],
       "js": ["./static/js/content.js"],
       "run_at": "document_start"
     }
